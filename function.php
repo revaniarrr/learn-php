@@ -11,6 +11,7 @@ echo "menyabun tangan";
 echo "mengurangi mobilitas";
 }
 
+//pendefinisian fungsi
 function makan($nama_makanan){
     echo "cuci tangan";
     echo "baca doa";
@@ -20,6 +21,7 @@ function makan($nama_makanan){
 }
 
 //echo prokes();
+//pemanggilan fungsi
     echo makan ("burger");
     echo makan ("soto");
 ?>
